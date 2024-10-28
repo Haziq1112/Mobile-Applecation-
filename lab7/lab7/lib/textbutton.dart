@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CurrencyConvertorPage extends StatelessWidget {
-  const CurrencyConvertorPage({super.key});
+class CurrencyTextButton extends StatelessWidget {
+  const CurrencyTextButton({super.key});
   @override
   Widget build(BuildContext context) {
     return TextButton(
@@ -20,8 +20,8 @@ class CurrencyConvertorPage extends StatelessWidget {
         ),
       ),
       child: const Text(
-        'convert',
-        style: TextStyle(color: Color.fromARGB(123, 56, 90, 160)),
+        'Convert',
+        style: TextStyle(color: Color.fromARGB(122, 228, 231, 238)),
       ),
     );
   }

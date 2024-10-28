@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
 
-class CurrencyConvertorPage extends StatelessWidget {
-  const CurrencyConvertorPage({super.key});
+class CurrencyText extends StatelessWidget {
+  const CurrencyText({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const Text(
-       'Convert',
-            style: TextStyle(color: Colors.white),
+    return const Padding(
+      padding:  EdgeInsets.all(10.0),
+      child:  Text(
+         'Currency Converter',
+              style: TextStyle(color: Colors.white),
+      ),
     );
   }
 }

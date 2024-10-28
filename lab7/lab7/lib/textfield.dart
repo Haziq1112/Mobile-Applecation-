@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CurrencyConvertorPage extends StatelessWidget {
-  const CurrencyConvertorPage({super.key});
+class CurrencyTextField extends StatelessWidget {
+  const CurrencyTextField({super.key});
 
   // This widget is the root of your application.
   @override
@@ -9,7 +9,7 @@ class CurrencyConvertorPage extends StatelessWidget {
     return  const TextField(
       decoration: InputDecoration(
         hintText: "PLease Enter Your Amount",
-        hintStyle: TextStyle(color: Color.fromARGB(12, 23, 34, 35)),
+        hintStyle: TextStyle(color: Color.fromARGB(255, 243, 246, 247)),
         prefixIcon: Icon(Icons.monetization_on),
         filled: true,
         fillColor: Color.fromARGB(255, 133, 136, 89),

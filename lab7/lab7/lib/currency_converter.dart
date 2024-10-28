@@ -16,6 +16,9 @@ class CurrencyConvertorPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              CurrencyText(),
+              CurrencyTextField(),
+              CurrencyTextButton(),
               Padding(
                 padding: EdgeInsets.all(15.0),
               ),
