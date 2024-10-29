@@ -9,7 +9,7 @@ class CurrencyText extends StatelessWidget {
     return const Padding(
       padding:  EdgeInsets.all(10.0),
       child:  Text(
-         'Currency Converter',
+         'Welcome To Currency Converter',
               style: TextStyle(color: Colors.white),
       ),
     );
